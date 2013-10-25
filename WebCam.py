@@ -7,7 +7,6 @@ webcam = cv2.VideoCapture(0)
 window = cv2.namedWindow("preview", 1)
 classifier = cv2.CascadeClassifier(TRAINSET)
 
-
 while True:
   rval, frame = webcam.read()
 
